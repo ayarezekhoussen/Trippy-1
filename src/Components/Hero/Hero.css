@@ -1,0 +1,53 @@
+.hero
+{
+    height: 100vh;
+    position: relative;
+    
+}
+.hero img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+}
+.hero .items
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+   text-align: center;
+   color: white;
+
+
+   
+}
+.hero h1
+{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.hero p
+{
+    font-size: 1.3rem;
+    margin: 32px 0;
+}
+.hero button
+{
+    font-size: 1.1rem;
+    font-weight: 700px;
+    background-color: white;
+    border-radius: 6px;
+    padding:1rem 2rem ;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width:992px) {
+
+.hero h1
+{
+    font-size: 2rem;
+   
+}
+}
